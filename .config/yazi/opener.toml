@@ -1,0 +1,9 @@
+[open]
+code = [
+    { run = 'code "$@"', desc = "Open in VS Code" }
+]
+
+[mime]
+text/* = "code"
+application/json = "code"
+application/javascript = "code"
