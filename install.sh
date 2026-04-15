@@ -7,7 +7,7 @@ CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}"
 
 link_config() {
   local name="$1"
-  local source="$DOTFILES_DIR/.config/$name"
+  local source="$DOTFILES_DIR/$name"
   local target="$CONFIG_DIR/$name"
 
   if [[ ! -e "$source" ]]; then
